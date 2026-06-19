@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/3.0.loader.js";
+      var loaderUrl = buildUrl + "/4.0.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/3.0.data.br",
-        frameworkUrl: buildUrl + "/3.0.framework.js.br",
-        codeUrl: buildUrl + "/3.0.wasm.br",
+        dataUrl: buildUrl + "/4.0.data.br",
+        frameworkUrl: buildUrl + "/4.0.framework.js.br",
+        codeUrl: buildUrl + "/4.0.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "skyLightReflector",
         productName: "surviveHuman",
@@ -92,7 +92,7 @@
       }
 
 
-      canvas.style.background = "url('" + buildUrl + "/3.0.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/4.0.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

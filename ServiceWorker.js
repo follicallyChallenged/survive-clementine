@@ -1,9 +1,9 @@
 const cacheName = "skyLightReflector-surviveHuman-1.0";
 const contentToCache = [
-    "Build/3.0.loader.js",
-    "Build/3.0.framework.js.br",
-    "Build/3.0.data.br",
-    "Build/3.0.wasm.br",
+    "Build/4.0.loader.js",
+    "Build/4.0.framework.js.br",
+    "Build/4.0.data.br",
+    "Build/4.0.wasm.br",
     "TemplateData/style.css"
 
 ];
